@@ -23,7 +23,7 @@ body  .profile{
     border-radius: 50%;
     border: 2px solid #00bfff;
     flex-shrink: 0;
-    z-index: 4;
+    z-index: 2;
     position: absolute;
     top: 300px;
     left: 50px;
@@ -371,6 +371,11 @@ nav .fa-solid{
     body .profile{
         display: block;
     }
+    body .profile img{
+        height: 270px;
+        width:190px;
+        text-align: center;
+      }
     #header{
         background-image: url(images/phone-background.png);
 
@@ -394,7 +399,7 @@ nav .fa-solid{
         width: 200px;
         height: 100vh;
         padding-top: 50px;
-        z-index: 2;
+        z-index: 3;
         transition: right 0.5s;
     }
     nav ul li{
@@ -443,7 +448,21 @@ nav .fa-solid{
      display: block;
 }
 
-
-
-
+@media only screen and (max-width: 375px){
+    body .profile{
+        display: block;
+    }
+    body .profile{
+        width: 150px;
+        height: 150px;
+        top: 190px;
+        left: 30px;
+    }
+    body .profile img{
+      height: 210px;
+      width:140px;
+      text-align: center;
+      vertical-align: middle;
+    }
+}
 
