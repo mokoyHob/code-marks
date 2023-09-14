@@ -41,6 +41,11 @@ body  .profile{
     padding: 10px 10%;
     overflow: hidden;
 }
+.container  .logo span {
+ color: #00bfff;
+ font-weight: 900;
+ font-size: large;
+}
 nav{
     display: flex;
     align-items: center;
@@ -463,6 +468,10 @@ nav .fa-solid{
       width:140px;
       text-align: center;
       vertical-align: middle;
+    }
+    .header-text .column1{
+        padding-right: 43px;
+        width: 375px;
     }
 }
 
